@@ -12,6 +12,8 @@
 		B4D80D1B201093CA0050A526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D80D1A201093CA0050A526 /* Assets.xcassets */; };
 		B4D80D1E201093CA0050A526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D80D1C201093CA0050A526 /* LaunchScreen.storyboard */; };
 		B4D80D21201093CB0050A526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D80D20201093CB0050A526 /* main.m */; };
+		B4D80D2D2010947B0050A526 /* WZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D80D2C2010947B0050A526 /* WZLoginViewController.m */; };
+		B4D80D34201098280050A526 /* WZLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D80D33201098280050A526 /* WZLoginView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,11 @@
 		B4D80D1D201093CA0050A526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4D80D1F201093CB0050A526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4D80D20201093CB0050A526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4D80D2B2010947B0050A526 /* WZLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZLoginViewController.h; sourceTree = "<group>"; };
+		B4D80D2C2010947B0050A526 /* WZLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLoginViewController.m; sourceTree = "<group>"; };
+		B4D80D31201095110050A526 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		B4D80D32201098280050A526 /* WZLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZLoginView.h; sourceTree = "<group>"; };
+		B4D80D33201098280050A526 /* WZLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLoginView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,8 @@
 		B4D80D10201093CA0050A526 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				B4D80D29201094520050A526 /* Tools */,
+				B4D80D282010944D0050A526 /* Class */,
 				B4D80D11201093CA0050A526 /* AppDelegate.h */,
 				B4D80D12201093CA0050A526 /* AppDelegate.m */,
 				B4D80D17201093CA0050A526 /* Main.storyboard */,
@@ -64,6 +73,57 @@
 				B4D80D20201093CB0050A526 /* main.m */,
 			);
 			path = MyProject;
+			sourceTree = "<group>";
+		};
+		B4D80D282010944D0050A526 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B4D80D2A201094660050A526 /* Login */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B4D80D29201094520050A526 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B4D80D31201095110050A526 /* Common.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B4D80D2A201094660050A526 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4D80D30201094F10050A526 /* Model */,
+				B4D80D2F201094E10050A526 /* View */,
+				B4D80D2E201094DE0050A526 /* VC */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4D80D2E201094DE0050A526 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B4D80D2B2010947B0050A526 /* WZLoginViewController.h */,
+				B4D80D2C2010947B0050A526 /* WZLoginViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B4D80D2F201094E10050A526 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4D80D32201098280050A526 /* WZLoginView.h */,
+				B4D80D33201098280050A526 /* WZLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4D80D30201094F10050A526 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +152,7 @@
 		B4D80D06201093CA0050A526 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WZ;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = arther;
 				TargetAttributes = {
@@ -137,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D80D2D2010947B0050A526 /* WZLoginViewController.m in Sources */,
+				B4D80D34201098280050A526 /* WZLoginView.m in Sources */,
 				B4D80D21201093CB0050A526 /* main.m in Sources */,
 				B4D80D13201093CA0050A526 /* AppDelegate.m in Sources */,
 			);
