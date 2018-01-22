@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "WZLoginViewController.h"
+#import "WZMainTabBarController.h"
+#import "WZMainNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] init];
-    self.window.rootViewController = [WZLoginViewController new];
+    self.window.rootViewController = [WZMainTabBarController new];
     [self.window makeKeyAndVisible];
     
     return YES;

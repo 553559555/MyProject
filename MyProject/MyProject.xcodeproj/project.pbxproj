@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CE79FCCA324D4D6F9A34873 /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FA1A73B35A14E1331319E0 /* libPods-MyProject.a */; };
+		B40A726820157D3200237FA6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40A726720157D2300237FA6 /* AVFoundation.framework */; };
+		B40A726A20158E0100237FA6 /* MV.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B40A726920158E0100237FA6 /* MV.mp4 */; };
+		B40A728D2015D72D00237FA6 /* WZMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A728C2015D72D00237FA6 /* WZMainNavigationController.m */; };
+		B40A72902015D74900237FA6 /* WZMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A728F2015D74900237FA6 /* WZMainTabBarController.m */; };
+		B40A72932015D79700237FA6 /* WZSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A72922015D79700237FA6 /* WZSortViewController.m */; };
+		B40A72962015D7A400237FA6 /* WZMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A72952015D7A400237FA6 /* WZMeViewController.m */; };
+		B40A72992015D7AD00237FA6 /* WZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A72982015D7AD00237FA6 /* WZHomeViewController.m */; };
+		B40A729E2015EDE900237FA6 /* WZVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A729D2015EDE900237FA6 /* WZVideo.m */; };
 		B4D80D13201093CA0050A526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D80D12201093CA0050A526 /* AppDelegate.m */; };
 		B4D80D19201093CA0050A526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D80D17201093CA0050A526 /* Main.storyboard */; };
 		B4D80D1B201093CA0050A526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D80D1A201093CA0050A526 /* Assets.xcassets */; };
@@ -17,6 +26,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50FA1A73B35A14E1331319E0 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB976340002A89AB3034AD9 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B40A726720157D2300237FA6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B40A726920158E0100237FA6 /* MV.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MV.mp4; sourceTree = "<group>"; };
+		B40A728B2015D72D00237FA6 /* WZMainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZMainNavigationController.h; sourceTree = "<group>"; };
+		B40A728C2015D72D00237FA6 /* WZMainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZMainNavigationController.m; sourceTree = "<group>"; };
+		B40A728E2015D74900237FA6 /* WZMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZMainTabBarController.h; sourceTree = "<group>"; };
+		B40A728F2015D74900237FA6 /* WZMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZMainTabBarController.m; sourceTree = "<group>"; };
+		B40A72912015D79700237FA6 /* WZSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZSortViewController.h; sourceTree = "<group>"; };
+		B40A72922015D79700237FA6 /* WZSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZSortViewController.m; sourceTree = "<group>"; };
+		B40A72942015D7A400237FA6 /* WZMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZMeViewController.h; sourceTree = "<group>"; };
+		B40A72952015D7A400237FA6 /* WZMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZMeViewController.m; sourceTree = "<group>"; };
+		B40A72972015D7AD00237FA6 /* WZHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHomeViewController.h; sourceTree = "<group>"; };
+		B40A72982015D7AD00237FA6 /* WZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHomeViewController.m; sourceTree = "<group>"; };
+		B40A729C2015EDE900237FA6 /* WZVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZVideo.h; sourceTree = "<group>"; };
+		B40A729D2015EDE900237FA6 /* WZVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZVideo.m; sourceTree = "<group>"; };
 		B4D80D0E201093CA0050A526 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D80D11201093CA0050A526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4D80D12201093CA0050A526 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,6 +55,7 @@
 		B4D80D31201095110050A526 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		B4D80D32201098280050A526 /* WZLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZLoginView.h; sourceTree = "<group>"; };
 		B4D80D33201098280050A526 /* WZLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLoginView.m; sourceTree = "<group>"; };
+		CA7C678D8F24DF35E95EDF1A /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +63,147 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40A726820157D3200237FA6 /* AVFoundation.framework in Frameworks */,
+				5CE79FCCA324D4D6F9A34873 /* libPods-MyProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		304C97BEE45D19EA451A86EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB976340002A89AB3034AD9 /* Pods-MyProject.debug.xcconfig */,
+				CA7C678D8F24DF35E95EDF1A /* Pods-MyProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B40A727E2015D0AD00237FA6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B40A728B2015D72D00237FA6 /* WZMainNavigationController.h */,
+				B40A728C2015D72D00237FA6 /* WZMainNavigationController.m */,
+				B40A728E2015D74900237FA6 /* WZMainTabBarController.h */,
+				B40A728F2015D74900237FA6 /* WZMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B40A727F2015D0B300237FA6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B40A728A2015D6E100237FA6 /* VC */,
+				B40A72892015D6DB00237FA6 /* View */,
+				B40A72882015D6D500237FA6 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B40A72802015D0B900237FA6 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B40A72872015D6CE00237FA6 /* VC */,
+				B40A72862015D6CA00237FA6 /* View */,
+				B40A72852015D6B300237FA6 /* Model */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B40A72812015D0C200237FA6 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				B40A72842015D6A800237FA6 /* Model */,
+				B40A72832015D6A200237FA6 /* VC */,
+				B40A72822015D69D00237FA6 /* View */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		B40A72822015D69D00237FA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B40A72912015D79700237FA6 /* WZSortViewController.h */,
+				B40A72922015D79700237FA6 /* WZSortViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B40A72832015D6A200237FA6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B40A72842015D6A800237FA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B40A72852015D6B300237FA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B40A72862015D6CA00237FA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B40A72942015D7A400237FA6 /* WZMeViewController.h */,
+				B40A72952015D7A400237FA6 /* WZMeViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B40A72872015D6CE00237FA6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		B40A72882015D6D500237FA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B40A72892015D6DB00237FA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B40A72972015D7AD00237FA6 /* WZHomeViewController.h */,
+				B40A72982015D7AD00237FA6 /* WZHomeViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B40A728A2015D6E100237FA6 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		B45A04E22011D088008C1510 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		B4D80D05201093CA0050A526 = {
 			isa = PBXGroup;
 			children = (
 				B4D80D10201093CA0050A526 /* MyProject */,
 				B4D80D0F201093CA0050A526 /* Products */,
+				304C97BEE45D19EA451A86EF /* Pods */,
+				F92B1AE9D191BFB06A929527 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +218,8 @@
 		B4D80D10201093CA0050A526 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				B40A726920158E0100237FA6 /* MV.mp4 */,
+				B45A04E22011D088008C1510 /* Source */,
 				B4D80D29201094520050A526 /* Tools */,
 				B4D80D282010944D0050A526 /* Class */,
 				B4D80D11201093CA0050A526 /* AppDelegate.h */,
@@ -78,6 +236,10 @@
 		B4D80D282010944D0050A526 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				B40A72812015D0C200237FA6 /* Sort */,
+				B40A72802015D0B900237FA6 /* Me */,
+				B40A727F2015D0B300237FA6 /* Home */,
+				B40A727E2015D0AD00237FA6 /* Main */,
 				B4D80D2A201094660050A526 /* Login */,
 			);
 			path = Class;
@@ -87,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				B4D80D31201095110050A526 /* Common.h */,
+				B40A729C2015EDE900237FA6 /* WZVideo.h */,
+				B40A729D2015EDE900237FA6 /* WZVideo.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -126,6 +290,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F92B1AE9D191BFB06A929527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B40A726720157D2300237FA6 /* AVFoundation.framework */,
+				50FA1A73B35A14E1331319E0 /* libPods-MyProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4D80D24201093CB0050A526 /* Build configuration list for PBXNativeTarget "MyProject" */;
 			buildPhases = (
+				1E062F990908FD964DF9A653 /* [CP] Check Pods Manifest.lock */,
 				B4D80D0A201093CA0050A526 /* Sources */,
 				B4D80D0B201093CA0050A526 /* Frameworks */,
 				B4D80D0C201093CA0050A526 /* Resources */,
+				B071B3C1AFA6F3B553E89FDF /* [CP] Embed Pods Frameworks */,
+				171FCCAD6E2201FE04760D55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40A726A20158E0100237FA6 /* MV.mp4 in Resources */,
 				B4D80D1E201093CA0050A526 /* LaunchScreen.storyboard in Resources */,
 				B4D80D1B201093CA0050A526 /* Assets.xcassets in Resources */,
 				B4D80D19201093CA0050A526 /* Main.storyboard in Resources */,
@@ -193,13 +370,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		171FCCAD6E2201FE04760D55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyProject/Pods-MyProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E062F990908FD964DF9A653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B071B3C1AFA6F3B553E89FDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyProject/Pods-MyProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4D80D0A201093CA0050A526 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B4D80D2D2010947B0050A526 /* WZLoginViewController.m in Sources */,
+				B40A72962015D7A400237FA6 /* WZMeViewController.m in Sources */,
+				B40A72932015D79700237FA6 /* WZSortViewController.m in Sources */,
+				B40A72992015D7AD00237FA6 /* WZHomeViewController.m in Sources */,
+				B40A728D2015D72D00237FA6 /* WZMainNavigationController.m in Sources */,
 				B4D80D34201098280050A526 /* WZLoginView.m in Sources */,
+				B40A729E2015EDE900237FA6 /* WZVideo.m in Sources */,
+				B40A72902015D74900237FA6 /* WZMainTabBarController.m in Sources */,
 				B4D80D21201093CB0050A526 /* main.m in Sources */,
 				B4D80D13201093CA0050A526 /* AppDelegate.m in Sources */,
 			);
@@ -333,9 +567,11 @@
 		};
 		B4D80D25201093CB0050A526 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB976340002A89AB3034AD9 /* Pods-MyProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X293M59WA5;
 				INFOPLIST_FILE = MyProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -347,9 +583,11 @@
 		};
 		B4D80D26201093CB0050A526 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7C678D8F24DF35E95EDF1A /* Pods-MyProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X293M59WA5;
 				INFOPLIST_FILE = MyProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

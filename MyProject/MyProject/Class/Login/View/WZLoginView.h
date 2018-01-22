@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^LOGINBUTTONCLICKBLOCK)(NSString *account,NSString *password);
+
 @interface WZLoginView : UIView
+
+@property (nonatomic, copy) LOGINBUTTONCLICKBLOCK  loginButtonClick;
+
+- (void)nextVCButtonClick:(LOGINBUTTONCLICKBLOCK)loginButtonClick;
 
 @end
