@@ -16,6 +16,10 @@
 		B40A72962015D7A400237FA6 /* WZMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A72952015D7A400237FA6 /* WZMeViewController.m */; };
 		B40A72992015D7AD00237FA6 /* WZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A72982015D7AD00237FA6 /* WZHomeViewController.m */; };
 		B40A729E2015EDE900237FA6 /* WZVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B40A729D2015EDE900237FA6 /* WZVideo.m */; };
+		B44D4D432016CA7F006A6206 /* WZHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D4D422016CA7F006A6206 /* WZHomeView.m */; };
+		B44D4D4720172C85006A6206 /* WZCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D4D4620172C85006A6206 /* WZCollectionHeaderView.m */; };
+		B44D4D4A20172EDC006A6206 /* WZCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D4D4920172EDC006A6206 /* WZCollectionFooterView.m */; };
+		B44D4D4D20173509006A6206 /* WZHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D4D4C20173509006A6206 /* WZHomeCollectionViewCell.m */; };
 		B4D80D13201093CA0050A526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D80D12201093CA0050A526 /* AppDelegate.m */; };
 		B4D80D19201093CA0050A526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D80D17201093CA0050A526 /* Main.storyboard */; };
 		B4D80D1B201093CA0050A526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D80D1A201093CA0050A526 /* Assets.xcassets */; };
@@ -42,6 +46,14 @@
 		B40A72982015D7AD00237FA6 /* WZHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHomeViewController.m; sourceTree = "<group>"; };
 		B40A729C2015EDE900237FA6 /* WZVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZVideo.h; sourceTree = "<group>"; };
 		B40A729D2015EDE900237FA6 /* WZVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZVideo.m; sourceTree = "<group>"; };
+		B44D4D412016CA7F006A6206 /* WZHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHomeView.h; sourceTree = "<group>"; };
+		B44D4D422016CA7F006A6206 /* WZHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHomeView.m; sourceTree = "<group>"; };
+		B44D4D4520172C85006A6206 /* WZCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZCollectionHeaderView.h; sourceTree = "<group>"; };
+		B44D4D4620172C85006A6206 /* WZCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCollectionHeaderView.m; sourceTree = "<group>"; };
+		B44D4D4820172EDC006A6206 /* WZCollectionFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZCollectionFooterView.h; sourceTree = "<group>"; };
+		B44D4D4920172EDC006A6206 /* WZCollectionFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCollectionFooterView.m; sourceTree = "<group>"; };
+		B44D4D4B20173509006A6206 /* WZHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		B44D4D4C20173509006A6206 /* WZHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHomeCollectionViewCell.m; sourceTree = "<group>"; };
 		B4D80D0E201093CA0050A526 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D80D11201093CA0050A526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4D80D12201093CA0050A526 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -177,8 +189,14 @@
 		B40A72892015D6DB00237FA6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B40A72972015D7AD00237FA6 /* WZHomeViewController.h */,
-				B40A72982015D7AD00237FA6 /* WZHomeViewController.m */,
+				B44D4D412016CA7F006A6206 /* WZHomeView.h */,
+				B44D4D422016CA7F006A6206 /* WZHomeView.m */,
+				B44D4D4520172C85006A6206 /* WZCollectionHeaderView.h */,
+				B44D4D4620172C85006A6206 /* WZCollectionHeaderView.m */,
+				B44D4D4820172EDC006A6206 /* WZCollectionFooterView.h */,
+				B44D4D4920172EDC006A6206 /* WZCollectionFooterView.m */,
+				B44D4D4B20173509006A6206 /* WZHomeCollectionViewCell.h */,
+				B44D4D4C20173509006A6206 /* WZHomeCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +204,8 @@
 		B40A728A2015D6E100237FA6 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				B40A72972015D7AD00237FA6 /* WZHomeViewController.h */,
+				B40A72982015D7AD00237FA6 /* WZHomeViewController.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -426,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44D4D4720172C85006A6206 /* WZCollectionHeaderView.m in Sources */,
 				B4D80D2D2010947B0050A526 /* WZLoginViewController.m in Sources */,
 				B40A72962015D7A400237FA6 /* WZMeViewController.m in Sources */,
 				B40A72932015D79700237FA6 /* WZSortViewController.m in Sources */,
@@ -433,8 +454,11 @@
 				B40A728D2015D72D00237FA6 /* WZMainNavigationController.m in Sources */,
 				B4D80D34201098280050A526 /* WZLoginView.m in Sources */,
 				B40A729E2015EDE900237FA6 /* WZVideo.m in Sources */,
+				B44D4D4D20173509006A6206 /* WZHomeCollectionViewCell.m in Sources */,
+				B44D4D4A20172EDC006A6206 /* WZCollectionFooterView.m in Sources */,
 				B40A72902015D74900237FA6 /* WZMainTabBarController.m in Sources */,
 				B4D80D21201093CB0050A526 /* main.m in Sources */,
+				B44D4D432016CA7F006A6206 /* WZHomeView.m in Sources */,
 				B4D80D13201093CA0050A526 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

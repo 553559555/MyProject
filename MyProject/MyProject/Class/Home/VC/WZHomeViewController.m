@@ -8,6 +8,7 @@
 
 #import "WZHomeViewController.h"
 #import "WZLoginViewController.h"
+#import "WZHomeView.h"
 
 @interface WZHomeViewController ()
 
@@ -20,6 +21,10 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"首页";
 //    [self presentViewController:[WZLoginViewController new] animated:YES completion:nil];
+    
+    WZHomeView *homeView = [[WZHomeView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:homeView];
+    
 }
 
 @end

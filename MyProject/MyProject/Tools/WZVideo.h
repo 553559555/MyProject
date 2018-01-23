@@ -10,5 +10,7 @@
 
 @interface WZVideo : UIView
 
+- (instancetype)initWithFrame:(CGRect)frame andURL:(NSString *)url;
+
 
 @end
