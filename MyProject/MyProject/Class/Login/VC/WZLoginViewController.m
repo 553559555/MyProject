@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = @"登录";
     self.view.backgroundColor = [UIColor whiteColor];
     // 添加子控件
     [self addChildViews];

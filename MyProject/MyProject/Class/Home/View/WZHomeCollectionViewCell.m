@@ -9,6 +9,7 @@
 #import "WZHomeCollectionViewCell.h"
 #import "Common.h"
 #import <Masonry.h>
+#import <UIImageView+WebCache.h>
 
 @interface WZHomeCollectionViewCell()
 
@@ -31,7 +32,8 @@
 
 - (void)addChildViews {
     
-    _iconImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
+    _iconImageView = [[UIImageView alloc] init];
+    [_iconImageView sd_setImageWithURL:[NSURL URLWithString:@"https://rpic.douyucdn.cn/amrpic-180124/2267291_1121.jpg"]];
     _iconImageView.backgroundColor = [UIColor blackColor];
     [self.contentView addSubview:_iconImageView];
     
@@ -42,7 +44,7 @@
     [self.contentView addSubview:_nameLabel];
     
     _personCountLabel = [[UILabel alloc] init];
-    _personCountLabel.text = @"1.2w万";
+    _personCountLabel.text = @"1.2万";
     _personCountLabel.textColor = [UIColor whiteColor];
     _personCountLabel.font = [UIFont systemFontOfSize:12];
     [self.contentView addSubview:_personCountLabel];
