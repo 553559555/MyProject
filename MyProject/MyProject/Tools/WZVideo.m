@@ -21,34 +21,40 @@
 
 - (instancetype)initWithFrame:(CGRect)frame andURL:(NSString *)url {
     if (self = [super initWithFrame:frame]) {
-        NSURL *urlPath = nil;
-        if ([url rangeOfString:@"http"].location != NSNotFound) {
-            urlPath = [NSURL URLWithString:url];
-        } else {
-            urlPath = [NSURL fileURLWithPath:url];
-        }
-        //创建AVPlayerItem
-        _playerItem = [AVPlayerItem playerItemWithURL:urlPath];
-        //添加给AVPlayer
-        self.player = [AVPlayer playerWithPlayerItem:_playerItem];
-        //设置视频声音
-        self.player.volume = 0;
-        //添加监听
-        [_playerItem addObserver:self forKeyPath:@"loadedTimeRanges" options:NSKeyValueObservingOptionNew context:nil];
-        [_playerItem addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackFinished:) name:AVPlayerItemDidPlayToEndTimeNotification object:self.player.currentItem];
-        // 创建AVPlayerlayer
-        AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
-        //设置模式
-        playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-        playerLayer.contentsScale = [UIScreen mainScreen].scale;
-        playerLayer.frame = frame;
-        [self.layer addSublayer:playerLayer];
+        [self AVPlayerAddUrl:url];
     }
     return self;
 }
 
-// 监听视频播放完成继续播放
+//加载URL
+- (void)AVPlayerAddUrl:(NSString *)url {
+    NSURL *urlPath = nil;
+    if ([url rangeOfString:@"http"].location != NSNotFound) {
+        urlPath = [NSURL URLWithString:url];
+    } else {
+        urlPath = [NSURL fileURLWithPath:url];
+    }
+    //创建AVPlayerItem
+    _playerItem = [AVPlayerItem playerItemWithURL:urlPath];
+    //添加给AVPlayer
+    self.player = [AVPlayer playerWithPlayerItem:_playerItem];
+    //设置视频声音
+    self.player.volume = 0;
+    //添加监听
+    [_playerItem addObserver:self forKeyPath:@"loadedTimeRanges" options:NSKeyValueObservingOptionNew context:nil];
+    [_playerItem addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playbackFinished:) name:AVPlayerItemDidPlayToEndTimeNotification object:self.player.currentItem];
+    // 创建AVPlayerlayer
+    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
+    //设置模式
+    playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    playerLayer.contentsScale = [UIScreen mainScreen].scale;
+    playerLayer.frame = self.bounds;
+    [self.layer addSublayer:playerLayer];
+    
+}
+
+// 循环播放
 -(void)playbackFinished:(NSNotification *)notification{
     NSLog(@"视频播放完成.");
     // 播放完成后重复播放
